@@ -1,0 +1,126 @@
+body{
+    font-family: "mullish", sans-serif ;
+}
+.page{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 56px 180px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    height: 41px;
+}
+.nav-items{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.nav-items li a{
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    margin: 0 20px;
+}
+.nav-items li a.active{
+    font-weight: bold;
+    opacity:1;
+}
+.dots{
+    position: absolute;
+    top:160px;
+    left: 0;
+}
+.container{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 25px;
+    width: 427px;
+    color: #000000;
+}
+.container .left p{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 45px;
+    width: 445px;
+    color: #7D7987;
+}
+.btn{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #458FF6;
+    color: #FFFFFF;
+    border-radius: 55px;
+    padding: 15px 40px;
+}
+
+.heading1{
+    margin-top: 192px;
+    margin-left: 695px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+.rectangle{
+    margin-left: 772px;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+.service p{
+    margin-top: 33px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: #7D7987;
+}
+
+.service-icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.icon-items{
+    width: 350px;
+    height: 354px;
+    background-color:#FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    padding: 39px;
+    margin-left: 34px;
+    margin-top: 37px;
+}
+.icon-items img{
+    margin-bottom: 22.4px;
+}
+.icon-items h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+.icon-item p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
