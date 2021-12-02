@@ -62,7 +62,7 @@ ul{
     width: 445px;
     color: #7D7987;
 }
-.btn{
+.btn-consult-today{
     font-weight: bold;
     font-size: 18px;
     line-height: 60px;
@@ -111,16 +111,35 @@ ul{
 }
 .icon-items img{
     margin-bottom: 22.4px;
+    margin-left: 37px;
 }
 .icon-items h3{
     font-weight: bold;
     font-size: 24px;
     line-height: 56px;
     color: #000000;
+    margin-left: 39px;
 }
-.icon-item p{
+.icon-items p{
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
     color: #7D7987;
+    margin-left: 39px;
+    text-align: left;
+}
+.button2{
+    margin-top: 72px;
+}
+
+.learn-more{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    padding: 20px 51px;
+    margin-left: 600px;
 }
