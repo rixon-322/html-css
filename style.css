@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    font-family: "mullish", sans-serif ;
+    font-family: "mulish", sans-serif ;
+    height: 100vh;
 }
 .page{
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 56px 180px;
 }
@@ -16,7 +22,7 @@ a{
 }
 .logo{
     width: 160px;
-    height: 41px;
+    height: 40px;
 }
 .nav-items{
     display: flex;
@@ -39,12 +45,17 @@ ul{
     position: absolute;
     top:160px;
     left: 0;
+    width: 132px;
+    height: 115px;
 }
 .container{
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
     align-items: center;
+}
+.container .left{
+   margin-right: 110px;
 }
 .container .left h1{
     font-weight: bold;
@@ -59,7 +70,7 @@ ul{
     font-size: 21px;
     line-height: 32px;
     margin-bottom: 45px;
-    width: 445px;
+    width: 420px;
     color: #7D7987;
 }
 .btn-consult-today{
@@ -72,74 +83,165 @@ ul{
     padding: 15px 40px;
 }
 
-.heading1{
-    margin-top: 192px;
-    margin-left: 695px;
-    font-weight: bold;
+.service{
+    grid-area:OurService;
+    padding-top: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ourservice-heading{
+    font-style: normal;
     font-size: 36px;
     line-height: 56px;
-    color: #000000;
+    text-align: center;
+    margin: 0;
 }
-.rectangle{
-    margin-left: 772px;
-    margin-top: 26px;
-    border-radius: 5px;
+.rectangleline{
+    align-self: center;
 }
 .service p{
-    margin-top: 33px;
+    margin-top: 32px;
+    margin-left: -3px;
     text-align: center;
     font-weight: 300;
     font-size: 18px;
+    line-height: 30px;
     color: #7D7987;
 }
 
-.service-icons{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 140px;
-    margin-top: 80px;
+.servicebox{
+    background: url("../images/our-services-cloud.svg") no-repeat top -185px left -6.18%,
+    url("../images/element.svg") no-repeat right 30px top 367px;
+    justify-content: center;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 37px 34px;
 }
-.icon-items{
+
+.services{
+    box-sizing: border-box;
     width: 350px;
     height: 354px;
-    background-color:#FFFFFF;
+    background-color: #ffffff;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     border-radius: 20px;
-    padding: 39px;
-    margin-left: 34px;
-    margin-top: 37px;
+    padding: 54px 0 0 36px;
 }
-.icon-items img{
-    margin-bottom: 22.4px;
-    margin-left: 37px;
-}
-.icon-items h3{
-    font-weight: bold;
+.services-title{
     font-size: 24px;
-    line-height: 56px;
-    color: #000000;
-    margin-left: 39px;
+    margin: 29px 0 13px 0;
 }
-.icon-items p{
-    font-weight: 300;
+.services-description{
     font-size: 16px;
     line-height: 28px;
     color: #7D7987;
-    margin-left: 39px;
-    text-align: left;
 }
-.button2{
-    margin-top: 72px;
-}
-
-.learn-more{
+.ourservice-btn{
+    font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 60px;
     color: #458FF6;
+    background: #ffffff;
+    line-height: 60px;
+    width: 200px;
+    height: 56px;
+    margin-top: 69px;
+    align-self: center;
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
-    padding: 20px 51px;
-    margin-left: 600px;
+}
+
+.healthcare-providers{
+
+    display: flex;
+    max-width: 1273px;
+    max-height: 477px;
+    left: 135px;
+    margin-top: 220px;
+}
+.healthcare-providers-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 142px;
+}
+.healthcare-providers-title{
+    width: 481px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 56px;
+    margin-top: 78px;
+}
+.healthcare-providers-line{
+    align-self: auto;
+}
+.healthcare-providers-description{
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 31px;
+    max-width: 450px;
+    max-height: 120px;
+    line-height: 30px;
+}
+.healthcare-providers-btn{
+    width: 200px;
+    height: 56px;
+    margin-top: 40px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    background: #ffffff;
+    color: #458ff6;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.download{
+    display: flex;
+    max-width: 1273px;
+    max-height: 477px;
+    left: 280px;
+    margin-top: 220px;
+}
+.download-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 142px;
+}
+.download-info-title{
+    width: 481px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 56px;
+}
+.download-line{
+    align-self:flex-start;
+}
+.download-info-description{
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 31px;
+    max-width: 450px;
+    max-height: 120px;
+    line-height: 30px;
+}
+.download-btn{
+    width: 200px;
+    height: 56px;
+    margin-top: 40px;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    background: #ffffff;
+    color: #458ff6;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: bold;
 }
