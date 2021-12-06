@@ -15,18 +15,18 @@ body{
 a{
     text-decoration: none;
 }
-.header{
+/* .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.logo{
+} */
+/* .logo{
     width: 160px;
     height: 40px;
-}
-.nav-items{
+} */
+/* .nav-items{
     display: flex;
-}
+} */
 ul{
     list-style-type: none;
 }
@@ -37,32 +37,28 @@ ul{
     opacity: 0.5;
     margin: 0 20px;
 }
-.nav-items li a.active{
+/* .nav-items li a.active{
     font-weight: bold;
     opacity:1;
-}
-.dots{
-    position: absolute;
-    top:160px;
+} */
+/* .dots{
     left: 0;
-    width: 132px;
-    height: 115px;
-}
-.container{
-    display: flex;
+} */
+.page-contents{
+    /* display: flex;  */
     margin-top: 80px;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between;
+    align-items: center; */
 }
 .container .left{
    margin-right: 110px;
 }
 .container .left h1{
-    font-weight: bold;
+    /* font-weight: bold;
     font-size: 48px;
-    line-height: 56px;
+    line-height: 56px; */
     margin-bottom: 25px;
-    width: 427px;
+    /* width: 427px; */
     color: #000000;
 }
 .container .left p{
@@ -74,12 +70,11 @@ ul{
     color: #7D7987;
 }
 .btn-consult-today{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 18px;
-    line-height: 60px;
-    background-color: #458FF6;
+    /* line-height: 60px;
     color: #FFFFFF;
-    border-radius: 55px;
+    border-radius: 55px; */
     padding: 15px 40px;
 }
 
@@ -111,8 +106,8 @@ ul{
 }
 
 .servicebox{
-    background: url("../images/our-services-cloud.svg") no-repeat top -185px left -6.18%,
-    url("../images/element.svg") no-repeat right 30px top 367px;
+    background: url("images/ourservice-cloud.svg") no-repeat top -185px left -6.18%,
+    url("images/element.svg") no-repeat right 30px top 367px;
     justify-content: center;
     padding-top: 80px;
     display: grid;
@@ -244,4 +239,110 @@ ul{
     font-size: 18px;
     line-height: 60px;
     font-weight: bold;
+}
+
+.ourcustomer{
+    background: url("images/element.svg") no-repeat left 0px top 260px;
+    margin-top: 266px;
+}
+.ourcustomer-inner{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    width: 1120px;
+    padding: 64px 118px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.ourcustomer-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ourservice-line{
+    margin-top: 25px;
+    text-align: center;
+}
+.author-image img{
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    margin-right: 30px;
+}
+.ourcustomer-data{
+    display: flex;
+}
+.data-left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 66px;
+}
+.author-name{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.author-pos{
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.data-right {
+    width: 50%;
+}
+.author-comment{
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 77px;
+    margin-left: 20px;
+}
+
+.ourservice-navigation{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.navigation-prev{
+    width: 31.43px;
+    height: 20px;
+    background-image: url("images/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:contain;
+    display: block;
+    opacity: 0.4;
+    margin-top: 42px;
+}
+.navigation-next{
+    width: 31.43px;
+    height: 20px;
+    background-image: url("images/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:contain;
+    display: block;
+    margin-top: 42px;
+}
+.navigation-dots{
+    display: flex;
+    margin: 0 92px;
+    margin-top: 47px;
+}
+.navigation-dot{
+    height: 10px;
+    width: 10px;
+    display: block;
+    background:  #5B9BF3;
+    opacity: 0.4;
+    border-radius: 5px;
+    margin: 0 9px;
+}
+.navigation-dot.active{
+    opacity: 1;
 }
