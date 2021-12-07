@@ -30,7 +30,7 @@ a{
 ul{
     list-style-type: none;
 }
-.nav-items li a{
+.navbar-nav li a{
     font-size: 18px;
     line-height: 23px;
     color: #1F1534;
@@ -41,32 +41,32 @@ ul{
     font-weight: bold;
     opacity:1;
 } */
-/* .dots{
-    left: 0;
-} */
-.page-contents{
+.dots{
+    top:160px;
+}
+.container-items{
     /* display: flex;  */
     margin-top: 80px;
     /* justify-content: space-between;
     align-items: center; */
 }
-.container .left{
+/* .container-left{
    margin-right: 110px;
-}
-.container .left h1{
-    /* font-weight: bold;
+} */
+.container-items h1{
+    font-weight: bold;
     font-size: 48px;
-    line-height: 56px; */
-    margin-bottom: 25px;
-    /* width: 427px; */
+    line-height: 56px;
+    /* margin-bottom: 25px;
+    width: 427px; */
     color: #000000;
 }
-.container .left p{
+.container-items p{
     font-weight: 300;
     font-size: 21px;
     line-height: 32px;
-    margin-bottom: 45px;
-    width: 420px;
+    /* margin-bottom: 45px;
+    width: 420px; */
     color: #7D7987;
 }
 .btn-consult-today{
@@ -85,7 +85,7 @@ ul{
     flex-direction: column;
     justify-content: center;
 }
-.ourservice-heading{
+/* .ourservice-heading{
     font-style: normal;
     font-size: 36px;
     line-height: 56px;
@@ -103,9 +103,26 @@ ul{
     font-size: 18px;
     line-height: 30px;
     color: #7D7987;
+} */
+.ourservice-heading{
+    font-style: normal;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0;
 }
-
-.servicebox{
+.rectangleline{
+    align-self: center;
+}
+.service-description{
+    margin-top: 32px;
+    font-weight: 300;
+    color: #7d7987;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+/* .servicebox{
     background: url("images/ourservice-cloud.svg") no-repeat top -185px left -6.18%,
     url("images/element.svg") no-repeat right 30px top 367px;
     justify-content: center;
@@ -147,9 +164,9 @@ ul{
     border: 1.4px solid #458FF6;
     box-sizing: border-box;
     border-radius: 55px;
-}
+} */
 
-.healthcare-providers{
+/* .healthcare-providers{
 
     display: flex;
     max-width: 1273px;
@@ -194,9 +211,9 @@ ul{
     font-size: 18px;
     line-height: 60px;
     font-weight: bold;
-}
+} */
 
-.download{
+/* .download{
     display: flex;
     max-width: 1273px;
     max-height: 477px;
@@ -345,4 +362,4 @@ ul{
 }
 .navigation-dot.active{
     opacity: 1;
-}
+} */
