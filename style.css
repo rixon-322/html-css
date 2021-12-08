@@ -33,8 +33,6 @@ ul{
 .navbar-nav li a{
     font-size: 18px;
     line-height: 23px;
-    color: #1F1534;
-    opacity: 0.5;
     margin: 0 20px;
 }
 /* .nav-items li a.active{
@@ -363,3 +361,12 @@ ul{
 .navigation-dot.active{
     opacity: 1;
 } */
+
+.bg-primary-gradient{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    
+}
+.customer-image{
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+}

@@ -18,29 +18,29 @@
 <body>
     <div class="page container">
 
-        <div class="header d-flex align-items-center justify-content-between "> 
-
-          <div class="logo w-160 h-40">
-            <a href="#">
-              <img src="images/logo.svg" alt="Page logo">
-            </a>
-          </div>
-
-          <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav d-flex">
-              <li class="nav-items"><a href="#" class="active nav-link fw-bold opacity-100">Home</a></li>
-              <li class="nav-items"><a href="#" class="nav-link">Find a doctor</a></li>
-              <li class="nav-items"><a href="#" class="nav-link">Apps</a></li>
-              <li class="nav-items"><a href="#" class="nav-link">Testimonials</a></li>
-              <li class="nav-items"><a href="#" class="nav-link">About Us</a></li>
+      <nav class="navbar navbar-expand-lg navbar-light py-3" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#">
+            <img class="d-inline-block me-3" src="images/logo.svg" alt="" />
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+              <li class="nav-item"><a class="nav-link fw-bold active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Find a doctor</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Apps</a></li>
+              <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
             </ul>
-          </nav>
-
+          </div>
         </div>
+      </nav>
+
         
-        <div class="dots w-132 h-115 position-absolute start-0">
+        
+        <div class="dots position-absolute start-0">
           <img src="images/element.svg" alt="dots image" >
-        </div>  
+        </div>   
 
         <div class="container-items d-flex align-items-center justify-content-between">
 
@@ -171,26 +171,12 @@
               </div>
 
               <div class="text-center py-4">
-                <button type="submit" class="btn btn-outline-primary rounded-pill btn-lg" >Learn more </button>
+                <button type="submit" class="btn btn-outline-primary rounded-pill btn-lg" style="font-size: 18px">Learn more </button>
               </div>
 
           </div>
       </section>
 
-        <!-- <section class="healthcare-providers">
-          <img class="healthcare-providers-img" src="images/leading healthcare providers.svg" alt="">
-          <div class="healthcare-providers-info">
-              <h1 class="healthcare-providers-title">
-                  Leading healthcare <br>providers
-              </h1>
-              <div class="healthcare-providers-line"><img src="images/providers rectangle.svg" alt=""></div>
-              <div class="healthcare-providers-description">
-                  Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
-                  in the solutions we deliver
-              </div>
-              <button class="healthcare-providers-btn">Learn more</button>
-          </div>
-        </section> -->
         <section class="py-6 py-lg-8 pt-5">
   
           <div class="container position-relative">
@@ -207,7 +193,7 @@
 
                 <p class="pt-3">Trafalgar provides progressive, and affordable <br>healthcare, accessible on mobile and online for<br> everyone. To us, it’s not just work. We take pride<br> in the solutions we deliver</p>
                 <div class="py-3">
-                  <button class="btn btn-lg btn-outline-primary rounded-pill" type="submit">Learn more </button>
+                  <button class="btn btn-lg btn-outline-primary rounded-pill" type="submit" style="font-size: 18px;">Learn more </button>
                 </div>
               </div>
             </div>
@@ -215,25 +201,7 @@
 
         </section>
 
-        <!-- <section class="download">
-
-          <div class="download-info">
-              <h1 class="download-info-title">
-                  Download our <br>mobile apps
-              </h1>
-              <div class="download-line"><img src="images/download line.svg" alt=""></div>
-              <div class="download-info-description">
-                  Our dedicated patient engagement app and web<br> portal allow you to access information <br>instantaneously (no tedeous form, long calls, 
-                  <br>or administrative hassle) and securely
-              </div>
-              <button class="download-btn">
-                  <span>Download</span>
-                  <img class="btn-arrow" src="images/download arrow.svg">
-              </button>
-          </div>
-          <img class="app-illustration" src="images/download app image.svg">  
-
-        </section> -->
+        
 
         <section class="py-6 py-lg-8 pt-5">
 
@@ -249,56 +217,57 @@
                   <img src="images/Rectangle 2.svg" class="img-fluid">
                 </div>
 
-                <p class="pt-3">Our dedicated patient engagement app<br> and web portal allow you to access information<br> instantaneously (no tedeous form, long calls,<br> or administrative hassle) and securely</p>
+                <p class="pt-3">Our dedicated patient engagement app<br> 
+                                and web portal allow you to access information<br> 
+                                instantaneously (no tedeous form, long calls,<br> 
+                                or administrative hassle) and securely</p>
                 <div class="py-3">
                   <button class="btn btn-lg btn-outline-primary rounded-pill" type="submit">
-                    <span>Download</span>
+                    <span style="font-size: 18px;">Download</span>
                     <img class="btn-arrow" src="images/download arrow.svg">
                   </button>
                 </div>
               </div>
             </div>
-          </div><!-- end of .container-->
+          </div>
   
         </section>
 
-        <!-- <div class="ourcustomer">
-          <div class="ourcustomer-inner">
-            <h1 class="ourcustomer-title">What our customer are saying</h1>
-            <div class="ourservice-line"><img src="images/ourcustomer-rectangle.svg" alt=""></div>
-            <div class="ourcustomer-data">
+        <section class="py-8">
 
-              <div class="data-left">
-                <div class="author-image"><img src="images/author-image.svg" alt=""></div>
-                <div class="author-details">
-                  <div class="author-name">Edward Newgate</div>
-                  <div class="author-pos">Founder Circle</div>
+          <div class="container">
+            <div class="customer pt-5 pt-md-9">
+              <div class="customer-inner">
+                <div class="customer-details">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-11">
+                      <div class="card text-white bg-primary-gradient">
+                        <div class="card-body p-4 p-md-4 p-lg-7">
+                            <h2 class="fw-bold text-white text-center">What our customer are saying</h2>
+                            <hr class="mx-auto" style="height:3px; width:60px" />
+                            <div class="d-md-flex align-items-md-center mt-5 text-center text-md-start mb-4 mx-5">
+                              <img class="customer-image img-fluid me-4 me-md-3 me-lg-4 ms-lg-5" src="images/author-image.svg" width="100" alt="" >
+                              <div class="customer-name w-md-25 my-3 ">
+                                <h5 class="mb-0 fw-medium text-white mb-2">Edward Newgate</h5>
+                                <p class="fw-light mb-0 text-white">Founder Circle</p>
+                              </div>
+                              <div class="w-md-25 ms-lg-5">
+                                <p class="card-text ms-md-5 text-white">“Our dedicated patient engagement app<br>
+                                                                        and web portal allow you to access information<br>
+                                                                        instantaneously (no tedeous form, long calls,<br>
+                                                                        or administrative hassle) and securely”</p>
+                              </div>
+                            </div>                                
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <div class="data-right">
-                <p class="author-comment">
-                  “Our dedicated patient engagement app and <br>
-                  web portal allow you to access information<br> instantaneously (no tedeous form, long calls, <br>
-                  or administrative hassle) and securely”
-                </p> 
-              </div>
-
             </div>
           </div>
 
-          <div class="ourservice-navigation">
-            <a href="" class="navigation-prev"></a>
-            <div class="navigation-dots">
-              <a href="" class="navigation-dot active"></a>
-              <a href="" class="navigation-dot"></a>
-              <a href="" class="navigation-dot"></a>
-              <a href="" class="navigation-dot"></a>
-            </div>
-            <a href="" class="navigation-next"></a>
-          </div>
-
-        </div> -->
+        </section>
 
     </div>
          
