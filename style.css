@@ -1,79 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: "mulish", sans-serif ;
     height: 100vh;
 }
-.page{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 56px 180px;
-}
 a{
     text-decoration: none;
 }
-/* .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-/* .logo{
-    width: 160px;
-    height: 40px;
-} */
-/* .nav-items{
-    display: flex;
-} */
+
 ul{
     list-style-type: none;
 }
 .navbar-nav li a{
-    font-size: 18px;
     line-height: 23px;
     margin: 0 20px;
 }
-/* .nav-items li a.active{
-    font-weight: bold;
-    opacity:1;
-} */
-.dots{
-    top:160px;
-}
-.container-items{
-    /* display: flex;  */
-    margin-top: 80px;
-    /* justify-content: space-between;
-    align-items: center; */
-}
-/* .container-left{
-   margin-right: 110px;
-} */
+
 .container-items h1{
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
-    /* margin-bottom: 25px;
-    width: 427px; */
     color: #000000;
 }
 .container-items p{
     font-weight: 300;
     font-size: 21px;
     line-height: 32px;
-    /* margin-bottom: 45px;
-    width: 420px; */
     color: #7D7987;
 }
 .btn-consult-today{
-    /* font-weight: bold; */
-    font-size: 18px;
-    /* line-height: 60px;
-    color: #FFFFFF;
-    border-radius: 55px; */
-    padding: 15px 40px;
+    padding: 15px 40px; 
 }
 
 .service{
@@ -83,285 +37,16 @@ ul{
     flex-direction: column;
     justify-content: center;
 }
-/* .ourservice-heading{
-    font-style: normal;
-    font-size: 36px;
-    line-height: 56px;
-    text-align: center;
-    margin: 0;
-}
-.rectangleline{
-    align-self: center;
-}
-.service p{
-    margin-top: 32px;
-    margin-left: -3px;
-    text-align: center;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
-} */
-.ourservice-heading{
-    font-style: normal;
-    font-size: 36px;
-    line-height: 56px;
-    text-align: center;
-    margin: 0;
-}
+
 .rectangleline{
     align-self: center;
 }
 .service-description{
-    margin-top: 32px;
     font-weight: 300;
     color: #7d7987;
-    text-align: center;
     font-size: 15px;
     line-height: 30px;
 }
-/* .servicebox{
-    background: url("images/ourservice-cloud.svg") no-repeat top -185px left -6.18%,
-    url("images/element.svg") no-repeat right 30px top 367px;
-    justify-content: center;
-    padding-top: 80px;
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-gap: 37px 34px;
-}
-
-.services{
-    box-sizing: border-box;
-    width: 350px;
-    height: 354px;
-    background-color: #ffffff;
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    border-radius: 20px;
-    padding: 54px 0 0 36px;
-}
-.services-title{
-    font-size: 24px;
-    margin: 29px 0 13px 0;
-}
-.services-description{
-    font-size: 16px;
-    line-height: 28px;
-    color: #7D7987;
-}
-.ourservice-btn{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    color: #458FF6;
-    background: #ffffff;
-    line-height: 60px;
-    width: 200px;
-    height: 56px;
-    margin-top: 69px;
-    align-self: center;
-    border: 1.4px solid #458FF6;
-    box-sizing: border-box;
-    border-radius: 55px;
-} */
-
-/* .healthcare-providers{
-
-    display: flex;
-    max-width: 1273px;
-    max-height: 477px;
-    left: 135px;
-    margin-top: 220px;
-}
-.healthcare-providers-info{
-    display: flex;
-    flex-direction: column;
-    margin-left: 142px;
-}
-.healthcare-providers-title{
-    width: 481px;
-    font-size: 36px;
-    font-weight: bold;
-    color: #000000;
-    line-height: 56px;
-    margin-top: 78px;
-}
-.healthcare-providers-line{
-    align-self: auto;
-}
-.healthcare-providers-description{
-    color: #7D7987;
-    font-weight: 300;
-    font-size: 18px;
-    margin-top: 31px;
-    max-width: 450px;
-    max-height: 120px;
-    line-height: 30px;
-}
-.healthcare-providers-btn{
-    width: 200px;
-    height: 56px;
-    margin-top: 40px;
-    border: 1.4px solid #458FF6;
-    box-sizing: border-box;
-    border-radius: 55px;
-    background: #ffffff;
-    color: #458ff6;
-    font-size: 18px;
-    line-height: 60px;
-    font-weight: bold;
-} */
-
-/* .download{
-    display: flex;
-    max-width: 1273px;
-    max-height: 477px;
-    left: 280px;
-    margin-top: 220px;
-}
-.download-info{
-    display: flex;
-    flex-direction: column;
-    margin-left: 142px;
-}
-.download-info-title{
-    width: 481px;
-    font-size: 36px;
-    font-weight: bold;
-    color: #000000;
-    line-height: 56px;
-}
-.download-line{
-    align-self:flex-start;
-}
-.download-info-description{
-    color: #7D7987;
-    font-weight: 300;
-    font-size: 18px;
-    margin-top: 31px;
-    max-width: 450px;
-    max-height: 120px;
-    line-height: 30px;
-}
-.download-btn{
-    width: 200px;
-    height: 56px;
-    margin-top: 40px;
-    border: 1.4px solid #458FF6;
-    box-sizing: border-box;
-    border-radius: 55px;
-    background: #ffffff;
-    color: #458ff6;
-    font-size: 18px;
-    line-height: 60px;
-    font-weight: bold;
-}
-
-.ourcustomer{
-    background: url("images/element.svg") no-repeat left 0px top 260px;
-    margin-top: 266px;
-}
-.ourcustomer-inner{
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    border-radius: 24px;
-    width: 1120px;
-    padding: 64px 118px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-.ourcustomer-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #FFFFFF;
-    text-align: center;
-}
-.ourservice-line{
-    margin-top: 25px;
-    text-align: center;
-}
-.author-image img{
-    border-radius: 50%;
-    border: 3px solid #FFFFFF;
-    margin-right: 30px;
-}
-.ourcustomer-data{
-    display: flex;
-}
-.data-left{
-    display: flex;
-    align-items: center;
-    width: 50%;
-    margin-top: 66px;
-}
-.author-name{
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 48px;
-    color: #FFFFFF;
-}
-.author-pos{
-    font-size: 18px;
-    line-height: 48px;
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.data-right {
-    width: 50%;
-}
-.author-comment{
-    font-size: 19px;
-    line-height: 30px;
-    color: rgba(255, 255, 255, 0.9);
-    margin-top: 77px;
-    margin-left: 20px;
-}
-
-.ourservice-navigation{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-}
-.navigation-prev{
-    width: 31.43px;
-    height: 20px;
-    background-image: url("images/arrow-left.svg");
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size:contain;
-    display: block;
-    opacity: 0.4;
-    margin-top: 42px;
-}
-.navigation-next{
-    width: 31.43px;
-    height: 20px;
-    background-image: url("images/arrow-right.svg");
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size:contain;
-    display: block;
-    margin-top: 42px;
-}
-.navigation-dots{
-    display: flex;
-    margin: 0 92px;
-    margin-top: 47px;
-}
-.navigation-dot{
-    height: 10px;
-    width: 10px;
-    display: block;
-    background:  #5B9BF3;
-    opacity: 0.4;
-    border-radius: 5px;
-    margin: 0 9px;
-}
-.navigation-dot.active{
-    opacity: 1;
-} */
-
 .bg-primary-gradient{
     background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
     
@@ -369,4 +54,8 @@ ul{
 .customer-image{
     border-radius: 50%;
     border: 3px solid #FFFFFF;
+}
+
+.article-part{
+    margin-top: 200px;
 }
